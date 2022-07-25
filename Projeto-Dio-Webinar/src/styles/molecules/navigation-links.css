@@ -1,0 +1,7 @@
+.navigation__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    text-shadow: .5px .5px #eeedf0;
+}

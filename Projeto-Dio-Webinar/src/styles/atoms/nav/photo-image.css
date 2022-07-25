@@ -1,0 +1,15 @@
+.logo-profile-photo {
+    border-radius: 50%;
+}
+
+.small {
+    width: 20px;
+}
+
+.medium {
+    width: 100px;
+}
+
+.big {
+    width: 150px;
+}

@@ -1,0 +1,11 @@
+.main {
+    grid-area: main;
+    padding: 20px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        overflow: visible;
+    }
+}

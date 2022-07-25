@@ -1,0 +1,164 @@
+:root{
+     --vermelho: #d10707;
+     --azul: #013369;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     box-sizing: border-box;
+}
+/*base dos elementos : */
+body{
+     background-color: var(--azul);
+     font-family: Helvetica,Arial,sans-serif;
+     color: white;
+}
+
+header .container{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    
+}
+
+header   .logo{
+     margin-left: 5px;
+     background-color:  var(--vermelho); 
+     font-family: Helvetica,Arial,sans-serif;
+     font-size:  45px;
+     text-shadow:  2px  2px #111111; 
+} 
+
+.logo:hover{
+     background-color: #FBAB18;
+     color: black;
+}
+
+header nav a{
+
+     color:  #eee;
+     margin-right: 15px;
+     text-decoration: none;
+     font-size: 15px;
+     line-height: 1.2;
+     text-shadow:  2px  2px #111111; 
+}
+
+header nav a:hover {
+     color: #aaa;
+}
+
+.inicio {
+     background-image: url("/Dio_Projeto_CloneFlix/img/capa.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: inherit;
+     
+}
+.principal {
+    
+     margin: 10px;
+     height: 700px;
+     width: 980px;
+     margin-left: 35px;
+     font-size: 18px;
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+
+}
+
+.principal .titulo{
+     margin-top: 30%;
+     font-size:  34px;
+     font-family: Helvetica,Arial,sans-serif;
+}
+
+.principal .sinopse{
+     margin-top: 5%;
+     margin-bottom: 80px;
+     font-family: Helvetica,Arial,sans-serif;
+
+}
+
+
+.botao {
+     
+    background-color:  rgba(red, green, blue, alpha);
+     border: none;
+     color: red;
+
+     padding: 9px 11px;
+     margin-right: 15px;
+     font-size: 13px;
+     border-radius: 25px;
+     cursor: pointer;
+     transition: .3s ease all;
+}
+
+.botao:hover {
+     background-color: white;
+     color:  black;
+     
+}
+
+.botao i{
+     margin-right: 8px;
+     text-shadow:  2px  2px #111111 ;
+}
+
+.container {
+     margin-left: 28px;
+     margin-top: 8px;
+}
+
+.principal .container{
+     width:  70%;
+}
+
+.box-time {
+     height: 100%;
+     width: 100%;
+     display: block;
+     cursor: pointer;
+}
+
+.row-container h2 {
+     margin-top: 8px;
+    margin-bottom:20px;
+    text-align: center;     
+    font-family:Helvetica,Arial,sans-serif;
+}
+  p{
+     text-align: center;     
+     margin-bottom:20px;
+     font-family:Helvetica,Arial,sans-serif;
+  }
+
+
+.circle-image{
+     display: inline-block;
+      border-radius: 50%; 
+      overflow: hidden;
+     width: 50%;
+     height: 50%;     
+}
+
+.circle-image img{
+     width: 100%;
+     height: 100%;
+    object-fit: cover;
+}
+
+footer{
+     width: 100;
+     text-align: center;
+     font-weight: 200;
+     font-style: italic;
+     padding: 20px;
+}

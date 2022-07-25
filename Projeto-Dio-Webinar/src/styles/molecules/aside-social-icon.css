@@ -1,0 +1,7 @@
+.aside__social-icon-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    padding: 15px;
+}

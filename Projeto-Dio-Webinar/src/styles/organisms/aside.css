@@ -1,0 +1,14 @@
+.aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+}
+
+@media screen and (max-width: 600px) {
+    .aside {
+        padding: 30px;
+    }
+}

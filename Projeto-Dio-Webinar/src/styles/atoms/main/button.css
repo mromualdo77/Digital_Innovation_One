@@ -1,0 +1,10 @@
+.button {
+    font-family: montserrat-medium;
+    font-size: 1.2em;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    margin: 20px 0;
+}
