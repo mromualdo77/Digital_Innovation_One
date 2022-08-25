@@ -99,7 +99,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     position: relative;
+  
    }
 
    main::before {
@@ -226,11 +226,11 @@
      align-items: center;
  }
 
- #section-inverted-world .section-texts{
+ #section-inverted-world  .section-texts{
      width: 50%;
  }
 
- #section-inverted-wolrd .section-texts h2 {
+ #section-inverted-wolrd  .section-texts h2 {
      max-width: 300px;
  }
 
@@ -274,7 +274,7 @@
      width: 100%;
    }
    
-   #section-stranger-things-gallery .container h2 {
+   #section-stranger-things-gallery .container  h2 {
      width: 800px;
    }
    
